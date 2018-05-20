@@ -6,6 +6,37 @@ body {
     background-color: #2a333d;
 }
 
+.night-mode {
+    background-color: #fff;
+}
+.night-mode#nombre {
+    color: #666 ;
+}
+.night-mode.white-container {
+    background-color: #2a333d;
+}
+.night-mode.tu-cuenta {
+    background-color: #2a333d;
+    color: #fff;
+}
+
+.moon {
+    display: inline-block;
+    height: 40px;
+    text-align: left;
+    vertical-align: text-bottom;
+    padding-left: 97%;
+    cursor: pointer;
+}
+@keyframes ani {
+    5% {
+      opacity: 0;
+    }
+  }
+.moon:active {
+    animation: ani 0.3s ease-out;
+}
+
 .avatar {
     display: inline-block;
 
